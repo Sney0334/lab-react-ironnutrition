@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+ 
 }
-
+.foodList{
+  display: flex;
+  flex-wrap: wrap
+}
+.AddFoodForm{
+  display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
